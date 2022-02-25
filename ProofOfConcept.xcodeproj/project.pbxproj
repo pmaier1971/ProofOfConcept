@@ -11,6 +11,11 @@
 		E8BB958B27C670D9000109A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BB958A27C670D9000109A4 /* ContentView.swift */; };
 		E8BB958D27C670DB000109A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BB958C27C670DB000109A4 /* Assets.xcassets */; };
 		E8BB959027C670DB000109A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8BB958F27C670DB000109A4 /* Preview Assets.xcassets */; };
+		E8BB959727C670FD000109A4 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BB959627C670FD000109A4 /* ContentViewModel.swift */; };
+		E8BB959927C67886000109A4 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BB959827C67885000109A4 /* LocationViewModel.swift */; };
+		E8BB959B27C68CFB000109A4 /* ModelWikipediaResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BB959A27C68CFB000109A4 /* ModelWikipediaResults.swift */; };
+		E8BB959D27C68D8F000109A4 /* ViewWikipediaResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BB959C27C68D8F000109A4 /* ViewWikipediaResults.swift */; };
+		E8BB959F27C6C592000109A4 /* ViewWikipediaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BB959E27C6C592000109A4 /* ViewWikipediaList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		E8BB958A27C670D9000109A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8BB958C27C670DB000109A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8BB958F27C670DB000109A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8BB959627C670FD000109A4 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E8BB959827C67885000109A4 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		E8BB959A27C68CFB000109A4 /* ModelWikipediaResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWikipediaResults.swift; sourceTree = "<group>"; };
+		E8BB959C27C68D8F000109A4 /* ViewWikipediaResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWikipediaResults.swift; sourceTree = "<group>"; };
+		E8BB959E27C6C592000109A4 /* ViewWikipediaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewWikipediaList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				E8BB958827C670D9000109A4 /* ProofOfConceptApp.swift */,
 				E8BB958A27C670D9000109A4 /* ContentView.swift */,
+				E8BB959627C670FD000109A4 /* ContentViewModel.swift */,
+				E8BB959E27C6C592000109A4 /* ViewWikipediaList.swift */,
+				E8BB959C27C68D8F000109A4 /* ViewWikipediaResults.swift */,
+				E8BB959A27C68CFB000109A4 /* ModelWikipediaResults.swift */,
+				E8BB959827C67885000109A4 /* LocationViewModel.swift */,
 				E8BB958C27C670DB000109A4 /* Assets.xcassets */,
 				E8BB958E27C670DB000109A4 /* Preview Content */,
 			);
@@ -139,6 +154,11 @@
 			files = (
 				E8BB958B27C670D9000109A4 /* ContentView.swift in Sources */,
 				E8BB958927C670D9000109A4 /* ProofOfConceptApp.swift in Sources */,
+				E8BB959B27C68CFB000109A4 /* ModelWikipediaResults.swift in Sources */,
+				E8BB959D27C68D8F000109A4 /* ViewWikipediaResults.swift in Sources */,
+				E8BB959727C670FD000109A4 /* ContentViewModel.swift in Sources */,
+				E8BB959F27C6C592000109A4 /* ViewWikipediaList.swift in Sources */,
+				E8BB959927C67886000109A4 /* LocationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +306,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +335,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
